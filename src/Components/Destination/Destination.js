@@ -18,7 +18,7 @@ export const Destination = () => {
           {popularMenu.map((curValue) => {
             const { title, desc, image1, image2 } = curValue;
             return (
-              <div>
+              <div >
                 <div className="col-12 d-flex flex-wrap justify-content-around align-center">
                   <div className="col-6">
                     <h2 className="title mb-1">{title}</h2>
