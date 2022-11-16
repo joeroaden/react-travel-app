@@ -1,0 +1,90 @@
+.backgroundImage {
+  height: 80vh;
+  background-size: cover;
+  background-position: center center;
+}
+
+.next, .pre {
+  position: absolute;
+  top: 50%;
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.next {
+  right: 0;
+}
+.grid {
+  display: grid;
+  place-items: center;
+}
+.p-abs {
+  position: absolute;
+  top: 4%;
+}
+.col {
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  z-index: 9999;
+}
+.nav-list .nav-items {
+  padding: 10px;
+  transition: all ease-in-out .1s;
+}
+.nav-list:hover .nav-items {
+  background-color: black;
+  color: white!important;
+  border-radius: 6px;
+}
+.signupbtn {
+  padding: 10px;
+  border-radius: 4px;
+}
+.col-1 {
+  color: white;
+  font-size: 28px;
+  font-family: sans-serif;
+  padding: 30px 0;
+}
+.col-1 h2 {
+  margin: 10px 0;
+}
+.col-1 p {
+  font-size: 26px;
+}
+.collapse {
+  display: flex;
+}
+.hamburger{
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .collapse.d-flex {display: none;}
+  .hamburger {
+      display: flex !important;
+  }
+  .collapse {
+      position: absolute;
+      right: 0px;
+      top: 70px;
+      background-color: white;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      border-radius: 4px;
+  }
+  .collapse li {
+      margin-left: 0;
+  }
+  .collapse .ml-2 {
+      margin-left: 0 !important;
+  }
+  ul.d-flex {
+      flex-direction: column;
+  }
+}

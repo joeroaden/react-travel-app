@@ -1,0 +1,16 @@
+.hero-area:hover {
+  transform: scale(.9, .9);
+  transition: all ease-in-out .3s;
+}
+.image-hero img {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.9);
+  border-radius: 8px;
+  object-fit: cover;
+}
+.text-area h3 {
+  margin: 20px 0;;
+}
+.text-area p{
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}

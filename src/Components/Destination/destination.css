@@ -1,0 +1,21 @@
+.heading {
+  font-size: 34px;
+}
+.sub-heading {
+  font-size: 24px;
+}
+.title {
+  font-size: 36px;
+  font-weight: bolder;
+}
+.sub-title {
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+
+.col-3 img {
+  height: 100%;
+  border-radius: 4px;
+  object-fit: cover;
+}
